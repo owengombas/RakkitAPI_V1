@@ -1,0 +1,17 @@
+{
+  "name": "RakkitAPI",
+  "version": "1.0.0",
+  "description": "Dynamic content manager",
+  "main": "index.js",
+  "author": "Owen Calvin <owen.gombas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "nm": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.2",
+    "mongoose-autopopulate": "^0.8.0"
+  }
+}
