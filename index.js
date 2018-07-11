@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const path = require('path')
 
 mongoose.connect('mongodb://localhost/rakkit')
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
 const host = process.env.HOST || 'localhost'
 const app = express()
 
