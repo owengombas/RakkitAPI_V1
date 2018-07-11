@@ -11,6 +11,7 @@ const newModel = (title = null, fields = {}, children = []) => {
 
 const deep = tree => {
   const newObj = {}
+  newObj._title = tree.title
   for (field in tree.fields) {
     newObj[`$${field}`] = tree.fields[field]
   }
